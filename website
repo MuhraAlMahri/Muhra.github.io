@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhra AlMahri - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    <style>
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .toggle-btn {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button class="toggle-btn" onclick="toggleTheme()">Toggle Dark Mode</button>
+    <header>
+        <h1>Muhra AlMahri</h1>
+        <p>Machine Learning Master's Student | Computational Biology Enthusiast</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate about AI and healthcare applications, with experience in computational biology, ML research, and hackathons.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Master's in Machine Learning, MBZUAI</li>
+            <li>Bachelor's in Chemical Engineering</li>
+            <li>Nanodegree in Data Analysis & Visualization</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>ADNOC Onshore</strong> - Internship</li>
+            <li><strong>AI-driven Drug Discovery Hackathon</strong> - Participant</li>
+            <li><strong>Vision-Language Models in Archaeology</strong> - Research Project</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Benchmarking VLMs for Artifact Classification</strong></li>
+            <li><strong>C. elegans Allele Project (Computational)</strong></li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Computational Biology</li>
+            <li>Python, TensorFlow, scRNA-seq</li>
+            <li>Data Analysis & Visualization</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:muhra@example.com">muhra@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/muhraalmahri">github.com/muhraalmahri</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muhra AlMahri</p>
+    </footer>
+</body>
+</html>
